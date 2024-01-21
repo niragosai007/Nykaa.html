@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: lightgrey;
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: 2px solid #4CAF50;
+    z-index: 1;
+    background-color: rgba(209, 126, 140, 0.725);
+    color: white;
+}
+.f-nav :hover{
+    background-color: aqua;
+    color: red;
+}
+.feature{
+    display: flex;
+
+}
+.feature .app{
+    display: flex;
+    margin-inline: 25px ;
+}
+.feature .app i{
+    margin-inline: 8px ;
+}
+.sec-nav .nyka-bar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: 2px solid #d5e0d6;
+    z-index: 1;
+      background-color: white;
+}
+.sec-nav .nyka-bar img{
+    width: 10%;
+
+}
+.sec-nav.nyka-bar a {
+    margin-inline: 22px;
+}
+.sec-nav .nyka-bar :hover{
+    border: rgb(86, 192, 80);
+}
+.sec-nav .inputs{
+    display: flex;
+}
+.sec-nav.inputs button{
+    margin-inline: 22px;
+}
+.sec-nav .inputs input{
+    background-color:rgb(225, 178, 178);
+    border: 1px;
+    margin: 2px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 3px;
+}
+ .sec-nav .inputs button{
+    width: 80px;
+    background-color: rgb(187, 81, 99);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+ }
+  
+ .items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+
+ }
+ .items button{
+    background-color: palevioletred;
+ }
+ .items :hover{
+    background-color: aqua;
+ }
+ .pink p{
+    font-style: italic;
+    color: rgb(218, 21, 53);
+    font-size: 80px;
+
+ }
+ .card b{
+    font-size: 40px;
+    color: darkmagenta;
+ }
+ .card div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .barnd img{
+    margin-left: 70px;
+ }
+.barnd h1{
+    color: blue;
+    
+} 
+.makeup-card {
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    margin: 30px;
+    padding: 50px;
+}
+.focus-on h1{
+   font-style: italic;
+   font-size: 60px;
+   color: darkmagenta;
+}
+.focus-on p{
+    color:darkmagenta ;
+    
+}
+.focus-card div{
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.nykaa-img div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+#on-our{
+    font-size: 40px;
+    color: darkmagenta;
+    font-style: italic;
+    align-items: center;
+}
+.on-our .frist{
+display: grid;
+grid-template-columns: repeat(4,2fr);
+margin: 30px;
+padding: 50px;
+}
+.footer{
+    background-color: rgb(46, 36, 36);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.footer2{
+    background-color: rgba(55, 191, 182, 0.741);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+.footer2 .list{
+    flex-direction: column;
+}
+.footer2  ul li{
+    list-style: none;
+}
+.button  button{
+ padding: 10px;
+width: 30%;
+background-color: #ffffff;
+color: #2e2289;
+padding: 15px 0;
+font-size: 18px;
+font-weight: 600;
+border-radius: 5px;
+cursor: pointer;
+}

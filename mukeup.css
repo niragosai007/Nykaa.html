@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: lightgray;
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border: 2px solid #4CAF50;
+    z-index: 1;
+    background-color: rgba(220, 17, 51, 0.725);
+    color: white;
+}
+.f-nav :hover{
+    background-color: aqua;
+}
+.feature{
+    display: flex;
+
+}
+.feature .app{
+    display: flex;
+    margin-inline: 25px ;
+}
+.feature .app i{
+    margin-inline: 8px ;
+}
+#img{
+    margin: 10px;
+}
+.makeup-card .card1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+
+}
+.makeup-card .card1 div{
+    padding-bottom: 50px;
+}
+.img2{
+    margin-top: 10px;
+
+}
+.img2 img{
+    margin-left: 20%;
+}
+.img2 h2{
+    font-size: 60px;
+    color: #4CAF50;
+}
+.produats .ab{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.produats .ab div{
+ border: 1px solid black;
+ margin: 10px;
+ padding: 10px;
+ 
+}
+#produats2 .cd {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#produats2 .cd div{
+ border: 1px solid black;
+ margin: 10px;
+ padding: 10px;
+ 
+}
+.button  button{
+    padding: 10px;
+   width: 30%;
+   background-color: #ffffff;
+   color: #2e2289;
+   padding: 15px 0;
+   font-size: 18px;
+   font-weight: 600;
+   border-radius: 5px;
+   cursor: pointer;
+   }
